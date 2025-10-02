@@ -1,6 +1,6 @@
 [project]
 name = "simple-service"
-version = "0.1.0"
+version = "0.1.1"
 description = "Basit REST API + CLI örneği"
 authors = [
     {name = "sim",email = "mail@ornek.com"}
