@@ -1,0 +1,29 @@
+[project]
+name = "simple-service"
+version = "0.1.0"
+description = "Basit REST API + CLI örneği"
+authors = [
+    {name = "sim",email = "mail@ornek.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.118.0,<0.119.0",
+    "uvicorn[standard]>=0.37.0,<0.38.0",
+    "typer[all]>=0.19.2,<0.20.0",
+    "requests>=2.32.5,<3.0.0",
+    "pydantic>=2.0.0"
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2,<9.0.0"
+]
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*", "cli*"]

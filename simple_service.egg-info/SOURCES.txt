@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+app/__init__.py
+app/api.py
+app/main.py
+cli/__init__.py
+cli/cli.py
+simple_service.egg-info/PKG-INFO
+simple_service.egg-info/SOURCES.txt
+simple_service.egg-info/dependency_links.txt
+simple_service.egg-info/requires.txt
+simple_service.egg-info/top_level.txt
